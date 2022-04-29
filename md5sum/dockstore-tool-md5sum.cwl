@@ -5,21 +5,6 @@ id: Md5sum
 label: Simple md5sum tool
 cwlVersion: v1.0
 
-$namespaces:
-  dct: http://purl.org/dc/terms/
-  foaf: http://xmlns.com/foaf/0.1/
-
-doc: |
-  [![Docker Repository on Quay.io](https://quay.io/repository/briandoconnor/dockstore-tool-md5sum/status "Docker Repository on Quay.io")](https://quay.io/repository/briandoconnor/dockstore-tool-md5sum)
-  [![Build Status](https://travis-ci.org/briandoconnor/dockstore-tool-md5sum.svg)](https://travis-ci.org/briandoconnor/dockstore-tool-md5sum)
-  A very, very simple Docker container for the md5sum command. See the [README](https://github.com/briandoconnor/dockstore-tool-md5sum/blob/master/README.md) for more information.
-
-
-#dct:creator:
-#  '@id': http://orcid.org/0000-0002-7681-6415
-#  foaf:name: Brian O'Connor
-#  foaf:mbox: briandoconnor@gmail.com
-
 requirements:
 - class: DockerRequirement
   dockerPull: quay.io/briandoconnor/dockstore-tool-md5sum:1.0.4
